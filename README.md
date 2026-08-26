@@ -422,12 +422,15 @@ Important: The stakeholder responses must be replaced with the actual responses 
 220046482 KI KALO
 
 8. Current Process
+
 8.1 Current Process Description
+
 The current business process involves several activities related to company compliance and tender management.
 The company must maintain multiple compliance documents and certificates and monitor their validity periods. When a certificate approaches expiry, the company needs to determine whether it must be renewed and ensure that an updated document is available when required.
 The company also needs to identify new tender opportunities and review the requirements of each opportunity. The requirements are then compared with the company's available qualifications and compliance documents to determine whether the company qualifies.
 If the company qualifies and decides to pursue the opportunity, the required documents are collected and prepared for submission. The tender is then submitted, after which the company needs to follow up to determine the status and final outcome.
 The process can involve printing and preparing multiple documents. Without centralised tracking, there is a risk of expired documents, missed tender deadlines, missed follow-ups and uncertainty about whether a tender was successful.
+
 8.2 Current Process Diagram
 Company Compliance Documents
              |
@@ -513,6 +516,7 @@ Compliance Status       Qualification
 
 
 9. Product Perspective
+
 The proposed system will operate as an integrated mobile and web platform.
 The Flutter mobile application will provide mobile access to company compliance and tender information.
 The ASP.NET web application will provide a larger interface for managing documents, tender information, submissions and administrative activities.
@@ -533,6 +537,7 @@ ASP.NET Web Application
 The original project material identifies Flutter/Dart and Supabase/PostgreSQL as the main technologies for the system.
 
 10. Main Product Functions
+11. 
 Component
 Main Functions
 Flutter Mobile Application
@@ -545,3 +550,4 @@ PostgreSQL
 Store company, document, certificate and tender information
 Security Layer
 Control authorised access to company information
+
