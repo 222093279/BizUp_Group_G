@@ -8,9 +8,15 @@ MV Tshabalala 222044346,
 
 [ITC.Group.Assessment.Group.G.pdf](https://github.com/user-attachments/files/31424406/ITC.Group.Assessment.Group.G.pdf)
 
+DE Radile 219008327
+
+
 
 TW Kayane 219015324
 
+
+
+220046482 KI KALO
 
 
 
@@ -25,11 +31,9 @@ MV Tshabalala 222044346
 
 
 
-DE Radile 219008327
 
 
 
-220046482 KI KALO
 
 
 
