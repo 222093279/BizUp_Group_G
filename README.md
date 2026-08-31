@@ -357,6 +357,19 @@ Protect company information	FR18, NFR1
 
 LP Moloi 222093279
 
+Current System, Proposed System & Technical Design
+Current Process
+
+Current Process Description
+Right now, the company handles compliance and tender work mostly by hand. For compliance, one person manually checks all the company’s information—like government requirements, CIPC annual returns, SARS returns, Beneficial Ownership Declarations, and SAHPRA licenses. They set aside time each week, especially on Monday mornings, just to keep up with these checks and track what’s expiring or needs renewing. Honestly, there’s no system that reminds anyone automatically or keeps everything in one place.
+Finding tenders is just as scattered. The company hears about new opportunities either from emails or by checking websites. Nobody tries to catch every tender out there—only the ones that actually fit what the company does, match their CSD registration, or match the stock and licenses they have. When something looks promising, they dig into the details to see if it’s a good match or if they can source the products somewhere else.
+If they want to go ahead, they save these opportunities in digital folders. The ones they aren’t interested in or don’t qualify for just fall off the radar—they’re not tracked at all.
+The whole thing eats up a lot of admin time. The person managing this spends hours just identifying, checking, submitting, and following up on everything. Managing certificate expiries by hand just adds to the hassle. Plus, the company shells out about R1,000 to R2,000 a month just printing and prepping documents for tenders.
+The new system aims to tidy all this up. It’ll bring compliance and tender info together, track expiries, and send reminders automatically, so the company can stop leaning so much on manual work.
+Product Perspective
+This system brings everything together as a mobile and web platform. The Flutter app lets people access company compliance and tender details right from their phone. If you want more options, there's an ASP.NET web app — perfect for handling documents, managing tenders, making submissions, and dealing with admin tasks. Both apps connect to the same Supabase backend and PostgreSQL database, so when someone enters information in one, it shows up in the other for anyone with the right permissions.
+
+
 
 
 
