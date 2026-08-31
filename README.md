@@ -94,7 +94,110 @@ We approximately spend R1000 - R2000 on printing and preparing documents for ten
 
 
 TW Kayane 219015324
+Problem, Aim, Objectives & Scope
+Problem Statement
+At present, the management of compliance documents, certificates, and tender opportunities relies on a manual process. It has been established that there is no automated system in place to monitor the company’s compliance. The verification of company compliance and the validity of certificates is conducted manually, encompassing routine checks on pertinent government compliance systems. The stakeholder reviews items such as CIPC annual returns, SARS annual returns, Beneficial Ownership Declarations, and renewals of SAHPRA license fees. Tender opportunities are also identified through manual means. The company seeks tender opportunities that align with its capacity to fulfill, falling within the range of its deliverables, which include commodities registered on CSD, stock items, and the scope of the SAHPRA license. These opportunities are discovered through invitations, websites, or other sources and are subsequently stored in digital files.
+ However, it is confirmed by the stakeholder that tender opportunities submitted are stored in digital Files so that they can be revisited where necessary. Opportunities that the company does not pursue or does not qualify for are not monitored yet.
+The current process of monitoring compliance and tenders is time-consuming, not completely automated, and not error-free. Compliance certificate expiry dates, tender opportunity identification, qualification requirements, and tender administration need repeated manual processing. It was clearly stated by the stakeholder that this area needs streamlining.
+The firm spends roughly between R1,000-R2,000 per month on the preparation of the tender documents. Nevertheless, the stakeholder stated that there is no loss suffered by the firm due to the inability to follow up on the results of the tenders.Thus, there is a need to develop a digital system that will assist the firm in handling issues of compliance, expiry dates of the certificates, identification of tenders, and qualification for tenders.
+Purpose
+Here’s what this system is really all about: it gives you one central digital spot to handle all your company’s compliance documents and tender opportunities. No more scattered files or forgotten deadlines.
+With this system, you can easily store and update all your compliance documents. It keeps an eye on certificate validity so you never miss a renewal. Need to check which documents are coming up for renewal? It’ll flag those for you. It also lets you log every compliance requirement, making it easier to stay organized.
+On the tender side, the platform helps you spot new opportunities and figure out which ones your company qualifies for. You can track the tenders you’re going after, keep records of the ones you submit, and stay on top of all those deadlines. If you need to follow up on an application or check the outcome, everything’s in one place.
+All in all, this prototype cuts down on unnecessary printing and admin work. It gives you better organization, more visibility, and tighter management over anything to do with compliance and tenders.
 
+Project Scope
+Project Aim
+The goal here is simple: create a digital platform that makes compliance and tender management a breeze. Companies can keep their documents up to date, spot the right tenders, check what’s needed, track bids, and see results—all in one place.
+
+Project Objectives
+This is what the system does:
+1. Stores your compliance documents and certificates safely.
+2. Lets users log when documents are issued and when they expire.
+3. Keeps track of document validity in real time.
+4. Sends alerts when certificates are about to expire.
+5. Helps companies keep compliance records up to date.
+6. Lets you add details for new tenders as you find them.
+7. Captures all the requirements and criteria for each tender.
+8. Helps users see if they qualify for tenders.
+9. Lets companies mark which tenders they’ll go for.
+10. Tracks which tenders have been submitted.
+11. Keeps an eye on all submission deadlines.
+12. Logs follow-up dates after you submit.
+13. Shows which tenders are pending, which have succeeded, and which haven’t.
+14. Tracks if the company wins after submitting a tender.
+15. Gets rid of paper and cuts down on manual document work.
+16. Gives one snapshot of everything—compliance and tenders alike.
+17. Helps users avoid missing renewals, deadlines, and follow-up tasks.
+
+Deliverables
+At the end, you’ll have:
+1. A mobile app built with Flutter.
+2. A web app built with ASP.NET.
+3. Supabase running the backend.
+4. PostgreSQL as the database.
+5. Secure logins for users.
+6. Full tools for managing compliance documents.
+7. Features to track when certificates expire.
+8. Everything you need to manage tenders.
+9. A way to track which tenders you qualify for.
+10. Tools to follow tender submissions.
+11. Ways to log follow-ups.
+12. Features to record tender results.
+13. One workspace where all company activity comes together.
+14. The initial Software Requirements Specification.
+15. Notes from meetings with stakeholders.
+16. Complete project documentation.
+17. A shared GitHub repo for all the code.
+18. A detailed project schedule made in Microsoft Project.
+
+Acceptance Criteria
+The system is ready when:
+• Only people with permission can log in.
+• Users can add and view compliance documents.
+• Expiry dates are saved and updated.
+• The system flags certificates that need renewing.
+• Users can log new tender opportunities and all needed requirements.
+• The platform shows if a company qualifies for a tender.
+• You can see which tenders are in the pipeline, which are submitted, and which ones are waiting for results.
+• Deadlines, follow-up dates, and outcomes are easy to record and view.
+• No unauthorized snooping—data is private and secure.
+• Both the mobile and web apps use the same backend.
+• Data saves and loads as it should.
+
+Exclusions
+These features don’t make it into the first release (unless someone specifically asks):
+• Auto-submission of tenders to outside portals.
+• Guaranteeing qualification or a win for any tender.
+• Automated legal reviews.
+• Handling online payments.
+• Building a full marketplace for tenders.
+• Automatically messaging tender issuers.
+• Accounting tools.
+• Auto-generating every single document for a tender.
+• Connections to all possible external tender sites.
+•Automating the contract award process.
+
+ Constraints
+There are a few limits to keep in mind:
+• The development timeline.
+• The team’s size and resources.
+• Reliance on network stability and Supabase uptime.
+• Depending on users to enter accurate data.
+• Each organization sets its own tender requirements.
+• The quality and reliability of tender data out there.
+• The chosen tech stack: Flutter/Dart for mobile, ASP.NET for web, PostgreSQL for data.
+• Meeting authentication and security needs.
+
+ Assumptions
+This project works under a few basic assumptions:
+• Every user has a proper account.
+• They provide correct company info and expiry dates.
+• All uploaded compliance documents are legit.
+• Users double-check requirements before they apply.
+• Tender outcomes get updated as soon as results come in.
+• The platform is just for tracking—it’s not the official tender portal.
+• Users are still responsible for verifying requirements and deadlines themselves.
 
 
  KI KALO 220046482
