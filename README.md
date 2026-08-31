@@ -362,6 +362,219 @@ LP Moloi 222093279
 
 MV Tshabalala 222044346
 
+Project Risk Register – BizUp System
+ Risk Register & Feasibility Study
+ 
+1.	Risk R1: Delay in Stakeholder Feedback
+Aspect	Details
+Risk Statement	Delay in stakeholder feedback slows requirement confirmation
+Category & Metrics	Category: Stakeholder | 
+Likelihood: Medium | 
+Impact: High | Score: 8
+Mitigation Action	Schedule regular checkins
+Contingency Action	Use assumptions and validate later
+Owner & Status	Owner: Project Manager
+| Status: Open
+
+3.	Risk R2: Limited Group Skills in Supabase Integration
+Aspect	Details
+Risk Statement	Limited group skills in
+Supabase integration
+Category & Metrics	Category: Technical | 
+Likelihood: High | 
+Impact: Medium | 
+Score: 5
+Mitigation Action	Allocate training time
+Contingency Action	Seek external tutorials/ support
+Owner & Status	Owner: Technical Lead | 
+Status: Open
+
+4.	Risk R3: Internet Connectivity Issues
+Aspect	Details
+Risk Statement	Internet connectivity issues during development
+Category & Metrics	Category: Infrastructure
+| Likelihood: Medium | 
+Impact: Medium | 
+Score: 9
+Mitigation Action	Ensure backup connectivity
+Contingency Action	Work offline and sync later
+Owner & Status	Owner: All Members | 
+Status: Open
+
+5.	Risk R4: Missed Tender Deadlines
+Aspect	Details
+Risk Statement	Missed tender deadlines due to poor tracking
+Category & Metrics	Category: Operational | 
+Likelihood: Medium | 
+Impact: High | Score: 9
+Mitigation Action	Implement automated reminders
+Contingency Action	Manual tracking as backup
+Owner & Status	Owner: Stakeholder | 
+Status: Open
+
+5.Risk R5: Confidential Data Uploaded to GitHub
+Aspect	Details
+Risk Statement	Confidential data accidentally uploaded to
+GitHub
+Category & Metrics	Category: Legal | 
+Likelihood: Low | 
+Impact: High | Score: 2
+Mitigation Action	Train group on GitHub usage
+Contingency Action	Remove sensitive data immediately
+Owner & Status	Owner: Repository
+Owner | Status: Open
+6.Risk R6: Printing Costs Remain High
+Aspect	Details
+Risk Statement	Printing costs remain high despite digital system
+Category & Metrics	Category: Economic | 
+Likelihood: Medium | 
+Impact: Medium | 
+Score: 5
+Mitigation Action	Encourage digital-only submissions
+Contingency Action	Budget for printing if required
+Owner & Status	Owner: Stakeholder | 
+Status: Open
+
+
+7.Risk R7: Project Tasks Exceed Semester Timeline
+Aspect	Details
+Risk Statement	Project tasks exceed semester timeline
+Category & Metrics	Category: Schedule | 
+Likelihood: Medium | 
+Impact: High | Score: 9
+Mitigation Action	Use Microsoft Project milestones
+Contingency Action	Request extension if unavoidable
+Owner & Status	Owner: Project Manager
+| Status: Open
+
+8.Risk R8: Errors in Certificate Expiry Tracking
+Aspect	Details
+Risk Statement	Errors in certificate expiry tracking
+Category & Metrics	Category: Technical | 
+Likelihood: Medium | 
+Impact: Medium | 
+Score: 5
+Mitigation Action	Test expiry tracking thoroughly
+Contingency Action	Manual checks as backup
+Owner & Status	Owner: QA Lead | 
+Status: Open
+
+9.Risk R9: Stakeholder Resistance to System
+Aspect	Details
+Risk Statement	Stakeholder resistance to adopting new system
+Category & Metrics	Category: Operational | 
+Likelihood: Low | 
+Impact: High | Score: 2
+Mitigation Action	Provide training and demos
+Contingency Action	Maintain manual fallback
+Owner & Status	Owner: Stakeholder | 
+Status: Open
+
+10.Risk R10: Data Loss Due to Backend Failure
+Aspect	Details
+Risk Statement	Data loss due to backend failure
+Category & Metrics	Category: Technical | 
+Likelihood: Low | 
+Impact: High | Score: 2
+Mitigation Action	Enable backups in
+Supabase
+Contingency Action	Restore from backup
+Owner & Status	Owner: Technical Lead | 
+Status: Open
+
+11.Risk R11: Ethical Misuse of Qualification Data
+Aspect	Details
+Risk Statement	Ethical misuse of tender qualification data
+Category & Metrics	Category: Ethical | 
+Likelihood: Low | 
+Impact: Medium | 
+Score: 6
+Mitigation Action	Enforce authorised access
+Contingency Action	Audit usage logs
+Owner & Status	Owner: System Admin | 
+Status: Open
+
+12.Risk R12: Group Member Non-Participation
+Aspect	Details
+Risk Statement	Group member non-
+participation
+Category & Metrics	Category: Team | 
+Likelihood: Medium | 
+Impact: Medium | 
+Score: 5
+Mitigation Action	Monitor contributions via tracker
+Contingency Action	Redistribute tasks
+Owner & Status	Owner: Project Manager
+| Status: Open
+
+Top 3 Highest Risks
+•	R2 – Limited group skills in Supabase integration (Likelihood: High, Impact: Medium, Score: 5)
+•	R7 – Project tasks exceed semester timeline (Likelihood: Medium, Impact: High, Score: 9)
+•	R1 – Delay in stakeholder feedback (Likelihood: Medium, Impact: High, Score: 9)
+
+Feasibility Study
+Feasibility Study – BizUp (Entrepreneurial Compliance and Tender
+Management System)
+ 
+1.	Technical Feasibility
+Aspect	Details
+Technologies	Flutter/Dart (mobile),
+ASP.NET (web),
+Supabase/PostgreSQL
+(backend & database)
+Equipment	Standard laptops, smartphones, internet connectivity
+Skills	Group has baseline skills; moderate training needed for Supabase
+integration
+Integration	Flutter + ASP.NET connected via Supabase backend
+Risks	Learning curve for backend integration
+Conclusion: Technically feasible with moderate training and careful integration planning.
+2.	Operational Feasibility
+Aspect	Details
+Current Process	Manual compliance and tender tracking
+Stakeholder Needs	Expiry tracking, qualification checks, submission monitoring, follow-ups
+Evidence	Stakeholder interviews confirm demand for centralised solution
+Conclusion: Operationally feasible and highly suitable for stakeholder needs
+
+4.	Economic Feasibility
+Aspect	Details
+Costs	Printing costs currently
+R1000–R2000 monthly
+Savings	
+	Reduced printing and admin costs
+Resources	Internet, hosting (Supabase free tier/ affordable plan), free dev tools
+Conclusion: Economically feasible with low financial risk.
+
+6.	Schedule Feasibility
+Aspect	Details
+Timeline	Completion required within semester
+Tools	Microsoft Project plan with milestones and dependencies
+Risks	Stakeholder feedback delays, technical learning curve
+Conclusion: Feasible if milestones are strictly managed.
+
+8.	Legal Feasibility
+Aspect	Details
+Data Handling	Compliance documents and tender info must be securely stored
+Security	Supabase Row Level
+Security (RLS)
+Confidentiality	No sensitive stakeholder data uploaded to GitHub
+Conclusion: Legally feasible if privacy and data-handling policies are followed
+
+10.	Ethical Feasibility
+Aspect	Details
+Transparency	Fair treatment of stakeholders via clear tender tracking
+Responsibility	Proper use of company data
+Evidence	Stakeholder confirms need for digital solution without misuse
+Conclusion: Ethically feasible with proper safeguards.
+
+Overall Feasibility Decision
+The BizUp system is feasible.
+•	Technically achievable with available tools and group skills.
+•	Operationally addresses stakeholder challenges.
+•	Economically reduces costs with minimal investment.
+•	Schedule, legal, and ethical considerations are manageable.
+
+
+
 
 
 
