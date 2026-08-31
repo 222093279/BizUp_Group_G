@@ -237,57 +237,7 @@ The stakeholder interview responses, stakeholder confirmation and project-manage
 
 DE Radile 219008327
 
-6. Stakeholders and User Groups
-6.1 Company Owners / Entrepreneurs
-Company owners and entrepreneurs are the primary stakeholders. They require visibility of company compliance status and tender opportunities and may use the system to manage the entire tender process.
-6.2 Administrative Staff
-Administrative staff may manage company documentation, certificate information, expiry dates and tender records.
-6.3 Tender / Procurement Staff
-Tender or procurement staff may search for tender opportunities, review tender requirements, determine qualification, prepare submissions and track tender outcomes.
-6.4 Company Management
-Management may use the system to monitor compliance, tender opportunities, submitted applications and outstanding follow-ups.
-6.5 System Administrator
-The system administrator will be responsible for technical administration, authorised access and maintenance of the application.
-________________________________________
-7. Stakeholder Interview Evidence
-The stakeholder interview focuses on understanding how the company currently manages compliance documents, certificates and tender opportunities.
-7.1 Stakeholder Interview Questions
-Company Compliance and Document Management
-Question 1:
-How does your company currently monitor and manage the validity periods of its compliance documents and certificates?
-Question 2:
-Approximately how many documents and certificates does your company typically need to maintain and submit when applying for business opportunities or tenders?
-Question 3:
-What process does your company currently use to monitor compliance requirements and ensure that all required certificates and documents remain valid and up to date?
-Question 4:
-How does your company identify which certificates or compliance documents need to be renewed before or after their expiry dates?
-Tender Identification and Management
-Question 5:
-How does your company currently identify and receive information about new tender opportunities?
-Question 6:
-How do you currently keep track of tenders that your company has already submitted, as well as tender opportunities that you are considering applying for?
-Question 7:
-Does your company review all available tender opportunities on a weekly basis? If so, how do you determine which tenders to pursue, and how do you keep track of the opportunities that you decide to pursue or not pursue?
-Question 8:
-How does your company determine which tenders it qualifies for, and what criteria or requirements do you use to assess whether you are eligible to apply?
-Question 9:
-What challenges does your company currently experience when managing compliance documents, certificate expiry dates, tender qualifications and tender opportunities?
-Question 10:
-Approximately how much does your company spend on printing and preparing documents for tender applications, and what financial losses or costs do you experience when tenders are not followed up to determine whether your company has been appointed or unsuccessful?
-7.2 Stakeholder Responses
-Question	Stakeholder Response
-Question 1	[I keep my validity period on a per case basis. Although the general quotation validity in our sector is 30 days, some clients request 60 to 90 days. I don’t have a fixed mechanism where I record validity for open and closed RFQ/Tender Bid requests.]
 
-Question 2	[⁠The question is a little vague, but if your question is referring to the number of quotations I submit daily/weekly/monthly/annually, it varies according to budget availability and allocation from DOH. It also depends on the rate at which end-users from the specific DOH institutions request SCM practitioners to source their tools of trade for them. With those variables constantly at play, the amount of documents I submit vary between 3-8 quotations/bids per week. If you meant documents per invitation, then it’s 23 standard bidding documents for RFQ plus 5 supporting company documents. 94-115 documents in a standard tender bid.]
-Question 3	[I don’t have set mechanisms to assist in checking my company compliance. I check manually every Monday morning and refresh my profiles on the respective government compliance systems. By doing that, I’m always aware of the expiry dates on my CIPC annual returns, SARS annual returns, Beneficial Ownership Declarations on CIPC and annual SAHPRA wholesale medical devices,  surgical consumables and equipment licence fees, then renew accordingly. I don’t have an automated system that helps me track them.]
-Question 4	[⁠I search manually on Monday’s when I reconcile my administrative accounts and profiles. I also get direct invitations via email from various hospitals and health district offices. I also note them down from various websites and sort them according to what closes first to last. I have them in digital folders to be able to pull them when I need to reference them or cross check according to the purchase orders received.]
-Question 5	[I only tender for adverts that match my commodities on CSD and for only those that are part of my stock items.]
-Question 6	[The biggest challenge we face in the company is that the analog way of identifying, submitting and manually following up is very time consuming and sometimes certain quotes slip through the cracks. Tracking expiration dates of the mandatory accreditations of trade the way we currently do, is also a tedious exercise that can be automated and streamlined for convenience.]
-Question 7	[No, my company only reviews the tender opportunities that falls within it’s scope of deliverables. This can be determined by the commodities that the entity is registered for on CSD and the scope which the SAHPRA licence allows. The way I track what we decide to pursue, is by saving submitted opportunities in digital files to be able to revisit when the need arises. We don’t track what we decide not to pursue or don’t qualify to pursue.]
-Question 8	[The RFQ/Tender description and specifications of the items requested, is certified indication of whether we qualify or not. It helps discern whether the items requested are part of our stock items or can be sourced via a third party at our behest for our client. The basically how how we assess eligibility.]
-Question 9	[⁠The biggest challenges are that our system is outdated and analog in a digital society. It’s time consuming and not error proof like we would like such administrative practices should be. Streamlining all these functions would be ideal for optimal operation.]
-Question 10	[We approximately spend R1000 - R2000 on printing and preparing documents for tenders on a month to month basis. We don’t experience financial losses for not following up whether our bid was successful or not. The DOH has mechanisms in place to follow up on whether are successful or not, after a certain amount of time has passed and it can be done remotely if you can’t physically go to these institutions. Where we experience loss is by virtue of being unsuccessful on all the ones we submitted for. If we even just get awarded one out of 10 submissions, 10% out of 100% strike rate ratio still balances out because of how relatively low the printing costs are compared to profit made per purchase order. So it’s a necessary trade-off that comes with the business demands.]
-Important: The stakeholder responses must be replaced with the actual responses obtained during the interview. They should not be invented.
 
 220046482 KI KALO
 
