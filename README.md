@@ -94,6 +94,8 @@ We approximately spend R1000 - R2000 on printing and preparing documents for ten
 
 
 TW Kayane 219015324
+
+
 Problem, Aim, Objectives & Scope
 Problem Statement
 At present, the management of compliance documents, certificates, and tender opportunities relies on a manual process. It has been established that there is no automated system in place to monitor the company’s compliance. The verification of company compliance and the validity of certificates is conducted manually, encompassing routine checks on pertinent government compliance systems. The stakeholder reviews items such as CIPC annual returns, SARS annual returns, Beneficial Ownership Declarations, and renewals of SAHPRA license fees. Tender opportunities are also identified through manual means. The company seeks tender opportunities that align with its capacity to fulfill, falling within the range of its deliverables, which include commodities registered on CSD, stock items, and the scope of the SAHPRA license. These opportunities are discovered through invitations, websites, or other sources and are subsequently stored in digital files.
