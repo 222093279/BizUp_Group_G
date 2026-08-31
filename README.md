@@ -203,7 +203,155 @@ This project works under a few basic assumptions:
 
 
  KI KALO 220046482
+
  
+ Requirements & System Features
+ Functional Requirements
+Here’s what the system needs to do:
+FR1 — User Authentication: Authorised users need to sign in securely.
+FR2 — Company Information: Users should be able to manage all relevant company details.
+FR3 — Compliance Document Management: Users need to add, view, and handle compliance documents for their company.
+FR4 — Certificate Management: Users can record certificate details.
+FR5 — Document Expiry Tracking: Users should be able to keep track of when documents and certificates expire.
+FR6 — Compliance Monitoring: The system needs to show which compliance documents are up to date and which need attention.
+FR7 — Expiry Reminders: Users get notified before important documents expire.
+FR8 — Tender Opportunity Management: Users can record and manage tender opportunities.
+FR9 — Tender Requirements: Users need to keep a record of all tender requirements.
+FR10 — Tender Qualification: The system lets users track whether the company meets each tender’s requirements.
+FR11 — Tender Selection: Users can pick out which tenders they plan to pursue.
+FR12 — Tender Submission: Users record details of submitted tender applications.
+FR13 — Tender Deadline Tracking: The system helps users keep an eye on upcoming tender deadlines.
+FR14 — Tender Follow-up: Users can log follow-up dates and actions for tenders they’ve submitted.
+FR15 — Tender Outcome: Users record the outcome for each tender, whether it’s awaiting decision, successful (appointed), or unsuccessful.
+FR16 — Tender Status: The system shows the current status for every tender.
+FR17 — Dashboard: There’s a central dashboard displaying key compliance and tender info.
+FR18 — Secure Data Access: Only authorised users can access their own company’s information. No one can peek into another company’s data.
+
+Non-Functional Requirements
+Define how the system should operate:
+NFR1 — Security  
+The system protects company information from unauthorized access.
+NFR2 — Usability  
+Interfaces stay clear and simple, so users can pick them up quickly.
+NFR3 — Performance  
+The system responds smoothly to everyday actions when the network’s working well.
+NFR4 — Availability  
+As long as the backend and network services are running, the system stays up.
+NFR5 — Data Integrity  
+Relationships between companies, documents, certificates, and tender records stay accurate and consistent.
+NFR6 — Reliability  
+The system stores and retrieves compliance and tender info without fail.
+NFR7 — Scalability  
+As more users join and more data comes in, the system grows with them.
+NFR8 — Maintainability  
+A solid architecture keeps things organized and leaves room for new features down the line.
+NFR9 — Cross-Platform Support  
+The mobile app uses Flutter, so it works seamlessly across different devices.
+NFR10 — Privacy  
+Confidential company info stays safe, and the system never asks for more personal details than it truly needs.
+Software Requirements
+Here’s what the system runs on:
+- Flutter Framework SDK
+- Dart programming language
+- ASP.NET
+- Supabase
+- PostgreSQL
+- Supabase Authentication
+- GitHub for version control
+- Microsoft Project for scheduling
+Basically, Flutter/Dart, Supabase, PostgreSQL, and Supabase Authentication are at the heart of it all.
+
+Database Requirements
+The database needs to handle several types of records:
+- Company: name, registration info, and how to reach them
+- Compliance Documents: what the document is, its type, and current status
+- Certificates: name, when it was issued, and when it expires
+- Tender Opportunities: title, reference number, who’s offering it, deadline
+- Tender Requirements: the qualifications and paperwork needed
+- Tender Qualification: qualified, not qualified, under review
+- Tender Submissions: date sent and its current status
+- Tender Follow-ups: date, any notes, and action items
+- Tender Outcomes: awarded, unsuccessful, or still waiting
+Everything links back to the right company or user for security and organization.
+
+Hardware / Environment Requirements
+Here’s what you’ll need to use the system:
+- A smartphone or mobile device for the Flutter app
+- A computer with a modern web browser for the ASP.NET web app
+- Internet access
+- The right login credentials
+Developers need to set up proper environments for Flutter/Dart and ASP.NET to get to work.
+
+Integration Requirements
+
+IR1 — Authentication Integration  
+Both the Flutter and ASP.NET apps need to use the chosen authentication system to make sure only authorized users get access.
+IR2 — Flutter to Supabase  
+When someone submits info through the Flutter app, the backend has to store it.
+IR3 — ASP.NET to Supabase  
+If a user adds or updates info through the ASP.NET app, that data should also go straight to the backend.
+IR4 — Shared Database  
+These two apps should use the same PostgreSQL database whenever it makes sense.
+IR5 — Compliance Data Integration  
+When a user enters compliance info in one app, any authorized user must be able to see it in the other.
+IR6 — Tender Data Integration  
+All details about tenders — opportunities, qualifications, submissions, follow-ups, outcomes — should live in one central place.
+IR7 — Security Integration  
+The backend needs to lock down company records, so only the right people can get to them.
+IR8 — Data Retrieval  
+Both apps have to fetch and display stored information to users who are allowed to see it.
+IR9 — Data Updates  
+If someone changes compliance or tender data, the shared database should show those updates everywhere.
+The original SRS already makes it clear: the client needs to handle user authentication, pull the user’s ID, get records, add new ones, update or delete them, and get responses from the database.
+
+Requirements Prioritisation
+
+Priority: Must Have  
+- User authentication: Keeps company information safe.
+- Compliance document management: Solves the main problem for stakeholders.
+- Certificate management: Essential for handling compliance tasks.
+- Certificate expiry tracking: Prevents issues from expired certificates.
+- Tender opportunity management: Makes sure all tender opportunities are managed.
+- Tender qualification tracking: Shows which tenders are a good fit.
+- Tender submission tracking: Stops submission details from getting lost.
+- Tender follow-up tracking: Makes sure you don't miss important updates.
+- Tender outcome tracking: Lets the company see application results.
+- Secure company data: Protects confidential info.
+
+Priority: Should Have  
+- Expiry reminders: Reminds users to renew documents before they expire.
+- Tender deadline reminders: Helps everyone keep an eye on tender deadlines.
+- Centralised dashboard: Gives a clear view of what's happening in the company.
+- Tender cost tracking: Keeps tabs on costs for printing and preparing tenders.
+
+Priority: Could Have  
+- Advanced reports: Offers more insights for managers.
+- Automated tender-source integration: Cuts down the time spent searching for tenders.
+- Document analytics: Gives extra info about compliance.
+
+Won't Have in Initial Version  
+- Automatic tender submission: Connecting to external portals will have to wait.
+- Guaranteed qualification: The system can't guarantee you’ll qualify for tenders.
+- Guaranteed tender success: Winning depends on outside organisations, not the system.
+
+Requirements Traceability
+Stakeholder problems identified through the interview questions.
+Stakeholder Need	Related Requirement
+Track document validity periods	FR5
+Know which documents need renewal.	FR5, FR6, FR7
+Manage many compliance documents.	FR3, FR4
+Identify tender opportunities	FR8
+Know which tenders the company qualifies for	FR9, FR10
+Track tenders to pursue	FR11
+Track submitted tenders	FR12
+Follow up on submitted tenders	FR14
+Know whether the company was appointed.	FR15
+Reduce missed tender outcomes.	FR14, FR15, FR16
+Reduce administrative work	FR17
+Reduce unnecessary printing and preparation costs.	FR3, FR17
+Protect company information	FR18, NFR1
+	
+
 
 
 
