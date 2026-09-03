@@ -206,7 +206,9 @@ This project works under a few basic assumptions:
 
  
  Requirements & System Features
+ 
  Functional Requirements
+ 
 Here’s what the system needs to do:
 FR1 — User Authentication: Authorised users need to sign in securely.
 FR2 — Company Information: Users should be able to manage all relevant company details.
