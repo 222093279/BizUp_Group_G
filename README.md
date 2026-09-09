@@ -6,7 +6,7 @@ KI Kalo  220046482,
 DE Radile 219008327,
 MV Tshabalala 222044346,
 
-[ITC.Group.Assessment.Group.G.pdf](https://github.com/user-attachments/files/31424406/ITC.Group.Assessment.Group.G.pdf)
+
 
 DE Radile 219008327
  Project Introduction & Stakeholder
