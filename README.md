@@ -4,6 +4,9 @@ LP Moloi 222093279,
 TW Kayane 219015324,
 KI Kalo  220046482,
 DE Radile 219008327,
+
+[BizUP(unit1&2__Group-G).docx](https://github.com/user-attachments/files/31995916/BizUP.unit1.2__Group-G.docx)
+
 MV Tshabalala 222044346,
 
 
