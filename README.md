@@ -3,5 +3,8 @@ Educational ITC ASSESSMENT
 LP Moloi 222093279,
 TW Kayane 219015324,
 KI Kalo  220046482,
-MV Tshabalala 222044346
+MV Tshabalala 222044346,
+L Matlhoane 222059872,
+RD Mohlomi 222082927.
+
 
